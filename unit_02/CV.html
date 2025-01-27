@@ -1,61 +1,92 @@
 <!DOCTYPE html> <!--Used to determine the version of html w e are using-->
 <html lang = "en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
         <title>
             Gru CV
         </title>
+        <style media="screen">
+            header{background-color: tomato;}
+            main{backdrop-filter:blur(75px);}
+            section{background-color: green;}
+            footer{background-color: blue;}
+            img{
+                position: relative;
+            }
+            body {
+                background-image: url('download.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                backdrop-filter:sepia(75%);
+            }
+            #foo{
+                position:static;
+                right: 110px;
+            }
+        </style>
     </head>
     <body>
-        <img src = "Gru.jpg" alt = "Gru" width = "100">
-        <h1>Work History</h1>
-        <ol>
-            <li><strong>Supervillain:</strong> Gru was a notorious supervillain who wanted to be the world's greatest villain. He stole things, including Queen Elizabeth II's crown and the Zodiac Stone. </li>
-            <li><strong>Jelly manufacturer:</strong> Gru also worked as an artisanal jelly manufacturer. </li>
-            <li><strong>AVL agent:</strong> Gru is now a secret agent for the AVL, an organization that fights evil. </li>
-        </ol>
-
-        <h1>Skills</h1>
-        <ul>
-            <li><strong>Leadership:</strong> Gru is a natural leader with charisma and high-level intelligence.</li> <progress value="100" max="100"></progress>
-            <li><strong>Weapon proficiency:</strong> Gru is skilled with weapons like the Freeze Ray, Shrink Ray, and Fart Gun.</li><progress value="100" max="100"></progress>
-            <li><strong>Minions:</strong> Gru leads an army of Minions.<tab><progress value="50" max="100"></progress></li>
-        </ul>
-
-        <h1>Family</h1>
-        <ul>
-            <li>
-                <strong>Parents:</strong>
-                <ul>
-                    <li>Marlena</li>
-                    <li>Robert Gru also know as <strong>Bald Terror</strong></li>
-                </ul>
-            </li>
-            <li>
-                <strong>Siblings:</strong><!--is there a way to indent the lines without using lists-->
-                <ul>
-                    <li>Gru has a twin brother named Dru. or <em>Druuuuuuuuuuuuu😂</em></li>
-                </ul>
-            </li>
-
-            <li>
-                <strong>Adoptive daughters:</strong>
+        <main>
+            <img src = "Gru.jpg" alt = "Gru" width = "150" height="150" id="foo">
+            <section>
+                <h1>Work History</h1>
                 <ol>
-                    <li>Margo</li>
-                    <li>Edith</li>
-                    <li>Agnes</li>
+                    <li><strong>Supervillain:</strong> Gru was a notorious supervillain who wanted to be the world's greatest villain. He stole things, including Queen Elizabeth II's crown and the Zodiac Stone. </li>
+                    <li><strong>Jelly manufacturer:</strong> Gru also worked as an artisanal jelly manufacturer. </li>
+                    <li><strong>AVL agent:</strong> Gru is now a secret agent for the AVL, an organization that fights evil. </li>
                 </ol>
-            </li>
-
-            <li>
-                <strong>Wife</strong>
+            </section>
+            <section style="background-color: tomato;">
+                <h1>Skills</h1>
                 <ul>
-                    <li>Lucy Wilde.</li>
+                    <li><strong>Leadership:</strong> Gru is a natural leader with charisma and high-level intelligence.</li> <progress value="100" max="100"></progress>
+                    <li><strong>Weapon proficiency:</strong> Gru is skilled with weapons like the Freeze Ray, Shrink Ray, and Fart Gun.</li><progress value="100" max="100"></progress>
+                    <li><strong>Minions:</strong> Gru leads an army of Minions.<tab><progress value="50" max="100"></progress></li>
                 </ul>
-            </li>
-        </ul>
-        <h1><strong>Links:</strong></h1>
-        <ul>
-            <li><em>https://geo-g.fandom.com/wiki/Felonious_Gru</em></li>
-        </ul>
+            </section>
+            <section style="background-color: brown;">    
+                <h1>Family</h1>
+                <ul>
+                    <li>
+                        <strong>Parents:</strong>
+                        <ul>
+                            <li>Marlena</li>
+                            <li>Robert Gru also know as <strong>Bald Terror</strong></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Siblings:</strong><!--is there a way to indent the lines without using lists-->
+                        <ul>
+                            <li>Gru has a twin brother named Dru. or <em>Druuuuuuuuuuuuu😂</em></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <strong>Adoptive daughters:</strong>
+                        <ol>
+                            <li>Margo</li>
+                            <li>Edith</li>
+                            <li>Agnes</li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <strong>Wife</strong>
+                        <ul>
+                            <li>Lucy Wilde.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <footer>
+                <h1>
+                    <strong>Links:</strong>
+                    <ul>
+                        <li><a href = "https://geo-g.fandom.com/wiki/Felonious_Gru"><em style="color: black;">Gru Wiki</em></a></li>
+                        <li><a href = "quiz/questions.html"><em style="color: black;">Test Your Despicable Info</em></a></li>
+                    </ul>
+                </h1>
+            </footer>
+        </main>
     </body>
 </html>
