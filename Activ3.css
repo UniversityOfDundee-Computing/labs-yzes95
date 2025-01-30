@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Roboto+Slab:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+}
+.navg_bar a{
+    margin: 5px;
+    font-family: "Julee";
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+main{
+    background-color:rgb(187, 185, 185);
+    margin-right: 0;
+    padding-right: 5px;
+    padding-left: 10px;
+    
+}
+aside{
+    background-color: rgb(125, 119, 119);
+    margin-left: 0;
+    padding-left: 5px;
+    padding-right: 10px;
+
+}
+
+#Body_title,#header{
+    font-family: "Julee";
+    font-size: 25px;
+    color: black;
+    font-weight: 500px;
+}
+.pha{
+    font-family: "Julee";
+    font-size: 20px;
+    color: black;
+}
+#grid{
+    display:grid;
+    grid-column-gap:0px;
+    grid-template-columns: 75% 25%;
+    overflow: auto;
+    height: 100vh;
+}
+
+footer{
+    position: absolute ;
+    width: 100%;
+    display:grid;
+    grid-column-gap:0px;
+    grid-template-columns: 33.3% 33.3% auto;
+    overflow: auto;
+    height: 70px;
+}
+
+#footerele1{
+    background-color: grey;
+}
+#footerele2{
+    background-color: rgb(189, 189, 189);
+}
+#footerele3{
+    background-color: rgb(114, 114, 114);
+}
