@@ -4,6 +4,8 @@
 
 #foo{
     float: right;
+    width:150px;
+    height:150px;
 }
 body {
     height:100%;
