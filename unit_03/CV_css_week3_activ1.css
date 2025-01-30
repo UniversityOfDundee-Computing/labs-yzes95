@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Roboto+Slab:wght@500&display=swap');
+
+
 #foo{
     float: right;
 }
@@ -5,7 +9,35 @@ body {
     height:100%;
     width: 100%;
 }
+h1{
+    font-family:'Julee';
+    font-size: 50px;
+    font-weight: 500px;
+}
 
+h3{
+    font-family:'Julee';
+    font-size: 25px;
+    font-weight: 250px;
+}
+
+.boxes{
+    font-family:'Julee';
+    font-size: 20px;
+    font-weight: 350px;
+}
+
+li{
+    font-family:'Julee';
+    font-size: 25px;
+    font-weight: 350px;
+}
+
+header{
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
 
 #bg{
     position: fixed;
@@ -28,10 +60,33 @@ footer{
     position: absolute;
     backdrop-filter: blur(15px);
     width: 100%;
-    top: 1100px;
+    top: 1500;
 }
 
-.f_a{
-    color: black;
+.footer{
+    font-family:'Julee';
+    font-size: 25px;
+    font-weight: 250px;
+    color: goldenrod;
 }
 
+
+.test{
+    color:red;
+    z-index: 50;
+}
+
+.fa-solid,.fa-arrow-up-right-from-square{
+    z-index: 50;
+}
+
+ol,ul{
+    display:flex;
+    flex-wrap:wrap;
+}
+.boxes{
+    border: 2px solid black;
+    margin:20px;
+    padding:20px;
+    width:200px;
+}
